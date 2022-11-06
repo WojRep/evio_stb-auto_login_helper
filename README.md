@@ -13,7 +13,9 @@
 
 Wywołanie: `http://hostname.domain:44444/Evio/<ip>/<mac_address>/login`
 gdzie:
+
 `<ip>` - to IP STB Evio
+
 `<mac_address>` - to MAC STB Evio
 
 Wynikiem jest przekierowanie z żądaniem zalogowania się do STB Evio.

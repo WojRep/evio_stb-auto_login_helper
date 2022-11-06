@@ -1,7 +1,7 @@
 FROM python:3.8-alpine
 LABEL maintainer='Wojciech Repiński "wrepinski@gmail.com"'
 LABEL name="evio_stb-auto_login_helper"
-LABEL version="1.1"
+LABEL version="1.2"
 LABEL description="Automatic login helper of Evio IPTV decoders like Z123"
 ADD evio_stb-auto_login_helper.tar.xz /
 RUN pip install --upgrade pip
